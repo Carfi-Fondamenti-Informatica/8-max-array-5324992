@@ -3,17 +3,17 @@
 
 using namespace std;
 
-int main() {
+int main(){
     int dim;
     cin >> dim;
-    float nuemeri[dim];
-    for (int i = 0 ; i < dim ; i++){
+    float numeri[dim];
+    for (int i= 0 ; i < dim ; i++){
         cin >> numeri[i];
     }
     numeroMassimo(numeri, dim);
-  
-        cout << numeroMassimo(numeri , dim ) << endl;
-  
-  
-  return 0;
-      }
+    
+       cout << numeroMassimo(numeri , dim ) << endl;
+    
+    
+    return 0;
+        }
